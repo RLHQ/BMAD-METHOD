@@ -1,0 +1,56 @@
+
+/* ePub 样式 */
+body {
+  font-family: "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 1.6;
+  margin: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3em;
+}
+
+code {
+  background-color: #f8f9fa;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+}
+
+pre {
+  background-color: #f8f9fa;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 1em;
+  margin: 1em 0;
+  color: #555;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
