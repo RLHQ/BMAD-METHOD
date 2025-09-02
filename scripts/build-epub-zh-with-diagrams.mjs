@@ -73,7 +73,7 @@ async function convertMermaidToSvg(diagramCode, outputPath) {
     await fs.writeFile(tempMmdFile, diagramCode);
 
     try {
-      execSync(`npx mmdc -i "${tempMmdFile}" -o "${outputPath}" -t dark -b transparent`, {
+      execSync(`npx mmdc -i "${tempMmdFile}" -o "${outputPath}" -t default -b transparent`, {
         stdio: 'pipe',
       });
       console.log(`✅ 转换 Mermaid 图表: ${path.basename(outputPath)}`);
