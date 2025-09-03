@@ -25,9 +25,6 @@ const CHAPTER_ORDER = [
   'enhanced-ide-development-workflow.md',
   'working-in-the-brownfield.md',
   'expansion-packs.md',
-  'how-to-contribute-with-pull-requests.md',
-  'versioning-and-releases.md',
-  'versions.md',
 ];
 
 async function createMetadata() {
