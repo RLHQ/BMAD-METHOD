@@ -14,9 +14,9 @@ title: BMAD-METHOD™ for Product Owners
 mdc: true
 ---
 
-# BMAD-METHOD™ for Product Owners
+# BMAD-METHOD™ for <br /> Product Owners
 
-## 用 AI 重塑产品管理工作流
+## 用 AI 重塑产品文档工作流
 
 ### 让竞品调研、需求设计、PRD 撰写、原型输出变得智能化
 
@@ -75,14 +75,55 @@ class: text-center
 
 ## 让我们想象一下：
 
-<v-clicks>
-
-- 🔍 **AI 分析师** 帮您进行深度竞品调研
-- 🏗️ **AI 架构师** 协助设计技术方案
-- 📋 **AI 产品经理** 协作撰写专业 PRD
-- 🎯 **AI 开发专家** 快速构建原型验证
-
-</v-clicks>
+<div class="space-y-2 mt-6">
+  <v-click>
+    <div class="flex items-center space-x-2 px-3 py-2 bg-blue-50 rounded">
+      <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs font-bold">分</div>
+      </div>
+      <div class="flex-1">
+        <div class="font-bold text-sm text-left">AI 分析师</div>
+        <div class="text-gray-600 text-xs text-left">深度竞品调研，多维度分析功能、用户、商业模式</div>
+      </div>
+    </div>
+  </v-click>
+  
+  <v-click>
+    <div class="flex items-center space-x-2 px-3 py-2 bg-green-50 rounded">
+      <div class="w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs font-bold">架</div>
+      </div>
+      <div class="flex-1">
+        <div class="font-bold text-sm text-left">AI 架构师</div>
+        <div class="text-gray-600 text-xs text-left">技术方案设计，系统架构、数据库、API 接口规范</div>
+      </div>
+    </div>
+  </v-click>
+  
+  <v-click>
+    <div class="flex items-center space-x-2 px-3 py-2 bg-purple-50 rounded">
+      <div class="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs font-bold">产</div>
+      </div>
+      <div class="flex-1">
+        <div class="font-bold text-sm text-left">AI 产品经理</div>
+        <div class="text-gray-600 text-xs text-left">专业 PRD 撰写，需求分析、用户故事、验收标准</div>
+      </div>
+    </div>
+  </v-click>
+  
+  <v-click>
+    <div class="flex items-center space-x-2 px-3 py-2 bg-orange-50 rounded">
+      <div class="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs font-bold">开</div>
+      </div>
+      <div class="flex-1">
+        <div class="font-bold text-sm text-left">AI 开发专家</div>
+        <div class="text-gray-600 text-xs text-left">原型构建验证，快速开发、测试、迭代优化</div>
+      </div>
+    </div>
+  </v-click>
+</div>
 
 <div class="mt-12">
   <div class="text-xl text-blue-500">这就是 <strong>BMAD-METHOD™</strong> 带给您的价值</div>
@@ -99,9 +140,9 @@ class: text-center
   <div class="text-sm">
     专业 AI 代理团队协作：
     <ul class="mt-2 space-y-1">
-      <li>• <strong>Analyst</strong> - 市场调研与竞品分析</li>
-      <li>• <strong>PM</strong> - 需求管理与 PRD 撰写</li>
-      <li>• <strong>Architect</strong> - 技术方案设计</li>
+      <li><strong>Analyst</strong> - 市场调研与竞品分析</li>
+      <li><strong>PM</strong> - 需求管理与 PRD 撰写</li>
+      <li><strong>Architect</strong> - 技术方案设计</li>
     </ul>
   </div>
 </div>
@@ -111,9 +152,9 @@ class: text-center
   <div class="text-sm">
     智能上下文工程：
     <ul class="mt-2 space-y-1">
-      <li>• 详细计划自动转换为开发故事</li>
-      <li>• 保持完整项目上下文</li>
-      <li>• 消除信息传递损失</li>
+      <li>详细计划自动转换为开发故事</li>
+      <li>保持完整项目上下文</li>
+      <li>消除信息传递损失</li>
     </ul>
   </div>
 </div>
@@ -122,6 +163,74 @@ class: text-center
 
 <div class="mt-8 text-center">
   <div class="text-lg text-gray-600">解决传统 AI 辅助开发的两大痛点：<strong>规划不一致</strong> + <strong>上下文丢失</strong></div>
+</div>
+
+---
+
+# 📋 完整工作流程：两阶段开发模式
+
+<div class="grid grid-cols-2 gap-8 mt-6">
+
+<div class="bg-blue-50 p-6 rounded-lg">
+  <h3 class="text-xl font-bold mb-4 text-blue-700">Phase 1: 规划与设计</h3>
+  <div class="text-sm space-y-3">
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs">1</div>
+      <div><code>*agent analyst</code> → 竞品调研</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs">2</div>
+      <div><code>*agent pm</code> → 撰写 PRD</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs">3</div>
+      <div><code>*agent ux-expert</code> → UI 设计</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs">4</div>
+      <div><code>*agent architect</code> → 架构设计</div>
+    </div>
+  </div>
+  <div class="mt-4 text-xs text-gray-600">
+    <strong>环境：</strong>Web UI (Claude/Gemini)<br>
+    <strong>时长：</strong>半天到 1 天<br>
+    <strong>产出：</strong>完整的设计文档
+  </div>
+</div>
+
+<div class="bg-green-50 p-6 rounded-lg">
+  <h3 class="text-xl font-bold mb-4 text-green-700">Phase 2: 开发与实现</h3>
+  <div class="text-sm space-y-3">
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs">5</div>
+      <div><code>*agent po</code> → 文档切分</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs">6</div>
+      <div><code>*agent sm</code> → 创建用户故事</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs">7</div>
+      <div><code>*agent dev</code> → 编写代码</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs">8</div>
+      <div><code>*agent qa</code> → 质量审查</div>
+    </div>
+  </div>
+  <div class="mt-4 text-xs text-gray-600">
+    <strong>环境：</strong>IDE (VS Code + Claude Code)<br>
+    <strong>时长：</strong>2-5 天（视项目规模）<br>
+    <strong>产出：</strong>可运行的完整应用
+  </div>
+</div>
+
+</div>
+
+<div class="mt-8 text-center text-sm text-gray-600">
+  <div class="bg-yellow-100 p-3 rounded">
+    <strong>关键要点：</strong>第 6-8 步需要循环执行，每个用户故事都要经过 SM 创建 → 您批准 → Dev 实现 → QA 审查 的完整流程
+  </div>
 </div>
 
 ---
@@ -134,147 +243,66 @@ layout: section
 
 ---
 
-# 🔍 竞品调研：从 3 天到 3 小时
+# 竞品调研：3 分钟完成专业分析
 
-<div class="grid grid-cols-2 gap-8 mt-8">
+<div class="grid grid-cols-2 gap-8 mt-6">
 
-<div class="space-y-4">
-  <h3 class="text-lg font-bold text-red-600">传统方式</h3>
-  <div class="bg-red-50 p-4 rounded">
-    <ul class="space-y-2 text-sm">
-      <li>🐌 手动搜集竞品信息 (1-2 天)</li>
-      <li>📊 Excel 表格整理数据</li>
-      <li>🤯 主观判断缺乏框架</li>
-      <li>📝 撰写分析报告 (1 天)</li>
-      <li>⚠️ 结果：不够全面，容易遗漏</li>
-    </ul>
-  </div>
-</div>
-
-<div class="space-y-4">
-  <h3 class="text-lg font-bold text-green-600">BMAD 方式</h3>
-  <div class="bg-green-50 p-4 rounded">
-    <ul class="space-y-2 text-sm">
-      <li>🤖 AI Analyst 执行 `*create-competitor-analysis`</li>
-      <li>📋 结构化模板自动生成</li>
-      <li>🎯 多维度深度分析框架</li>
-      <li>📊 数据可视化对比</li>
-      <li>✅ 结果：专业、全面、可复用</li>
-    </ul>
-  </div>
-</div>
-
-</div>
-
-<div class="mt-6 p-4 bg-blue-100 rounded">
-  <div class="text-sm"><strong>实际输出</strong>：包含功能对比、技术架构、用户体验、商业模式、SWOT 分析等完整报告</div>
-</div>
-
----
-
-# 📝 需求设计与 PRD 撰写：质量提升 10 倍
-
-<div class="grid grid-cols-2 gap-6 mt-6">
-
-<div>
-  <h3 class="text-lg font-bold mb-4 text-blue-600">AI PM 协作流程</h3>
-  <div class="space-y-3 text-sm">
+<div class="bg-blue-50 p-4 rounded">
+  <h3 class="text-lg font-bold mb-3">📝 操作步骤</h3>
+  <div class="text-sm space-y-3">
     <div class="flex items-center space-x-2">
-      <div class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center">1</div>
-      <div>业务需求输入与澄清</div>
+      <div class="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs font-bold">1</div>
+      <div><strong>启动代理</strong></div>
+    </div>
+    <div class="pl-8">
+      <code>*agent analyst</code>
     </div>
     <div class="flex items-center space-x-2">
-      <div class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center">2</div>
-      <div>AI 引导需求结构化分析</div>
+      <div class="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs font-bold">2</div>
+      <div><strong>执行分析</strong></div>
+    </div>
+    <div class="pl-8">
+      <code>*create-competitor-analysis</code>
     </div>
     <div class="flex items-center space-x-2">
-      <div class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center">3</div>
-      <div>自动生成标准 PRD 模板</div>
+      <div class="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs font-bold">3</div>
+      <div><strong>输入产品概念</strong></div>
+    </div>
+    <div class="pl-8 text-gray-600">
+      短视频应用，分析抖音、快手、小红书
+    </div>
+  </div>
+</div>
+
+<div class="bg-green-50 p-4 rounded">
+  <h3 class="text-lg font-bold mb-3">自动输出</h3>
+  <div class="text-sm space-y-2">
+    <div class="flex items-center space-x-2">
+      <div class="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+      <div><strong>功能矩阵对比表</strong>（39 个功能点）</div>
     </div>
     <div class="flex items-center space-x-2">
-      <div class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center">4</div>
-      <div>迭代优化与验证</div>
+      <div class="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+      <div><strong>精准用户画像</strong>分析</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-2 h-2 bg-yellow-500 rounded-full flex-shrink-0"></div>
+      <div><strong>商业模式</strong>深度解析</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-2 h-2 bg-purple-500 rounded-full flex-shrink-0"></div>
+      <div><strong>技术架构</strong>推测</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
+      <div><strong>市场趋势</strong>预测分析</div>
     </div>
   </div>
-</div>
-
-<div>
-  <h3 class="text-lg font-bold mb-4 text-green-600">PRD 质量保证</h3>
-  <div class="bg-green-50 p-4 rounded text-sm">
-    <ul class="space-y-2">
-      <li>✅ <strong>结构标准化</strong>：遵循行业最佳实践</li>
-      <li>✅ <strong>逻辑完整性</strong>：自动检查需求依赖</li>
-      <li>✅ <strong>可测试性</strong>：生成明确验收标准</li>
-      <li>✅ <strong>技术可行性</strong>：AI 架构师预审</li>
-      <li>✅ <strong>版本管理</strong>：变更历史自动跟踪</li>
-    </ul>
-  </div>
-</div>
-
-</div>
-
-<div class="mt-6 bg-yellow-100 p-4 rounded">
-  <div class="text-sm"><strong>关键优势</strong>：从需求收集到 PRD 完成，整个过程在 AI 指导下系统化进行，确保无遗漏、可追溯</div>
-</div>
-
----
-
-# 🎨 原型输出与验证：快速迭代闭环
-
-<div class="mt-8">
-
-<div class="grid grid-cols-3 gap-6">
-
-<div class="text-center">
-  <div class="text-3xl mb-2">🏗️</div>
-  <h4 class="font-bold mb-2">架构设计</h4>
-  <div class="text-sm bg-blue-50 p-3 rounded">
-    AI Architect 基于 PRD<br/>
-    自动生成技术架构图<br/>
-    和实现方案
-  </div>
-</div>
-
-<div class="text-center">
-  <div class="text-3xl mb-2">⚡</div>
-  <h4 class="font-bold mb-2">快速开发</h4>
-  <div class="text-sm bg-green-50 p-3 rounded">
-    SM + Dev 代理协作<br/>
-    将架构转换为<br/>
-    可执行的代码原型
-  </div>
-</div>
-
-<div class="text-center">
-  <div class="text-3xl mb-2">🔄</div>
-  <h4 class="font-bold mb-2">迭代验证</h4>
-  <div class="text-sm bg-purple-50 p-3 rounded">
-    QA 代理自动测试<br/>
-    用户反馈快速整合<br/>
-    持续优化
-  </div>
-</div>
-
-</div>
-
-<div class="mt-8 p-6 bg-gradient-to-r from-blue-100 to-purple-100 rounded-lg">
-  <h3 class="text-lg font-bold mb-4">🚀 从想法到可用原型：传统 4 周 → BMAD 4 天</h3>
-  <div class="grid grid-cols-2 gap-4 text-sm">
-    <div>
-      <strong>时间节省：</strong>
-      <ul class="mt-1 space-y-1">
-        <li>• 需求澄清：3 天 → 3 小时</li>
-        <li>• 架构设计：1 周 → 1 天</li>
-        <li>• 原型开发：2 周 → 2 天</li>
-      </ul>
-    </div>
-    <div>
-      <strong>质量提升：</strong>
-      <ul class="mt-1 space-y-1">
-        <li>• 需求覆盖率：60% → 95%</li>
-        <li>• 架构一致性：+200%</li>
-        <li>• 缺陷率：-80%</li>
-      </ul>
+  <div class="mt-4 text-center">
+    <div class="inline-flex items-center space-x-1 bg-white px-3 py-1 rounded-full">
+      <div class="text-xs font-bold text-gray-700">⚡ 3-30 分钟</div>
+      <div class="text-xs text-gray-500">vs</div>
+      <div class="text-xs text-gray-500">传统 3-5 天</div>
     </div>
   </div>
 </div>
@@ -282,55 +310,148 @@ layout: section
 </div>
 
 ---
-layout: two-cols
----
 
-# 💰 ROI 量化分析
+# PRD 撰写：从空白页面到专业文档
 
-::left::
+## 实战演练：10 分钟完成一份 PRD
 
-## 成本节约
+<div class="grid grid-cols-2 gap-8 mt-6">
 
-<div class="space-y-3 mt-4">
-  <div class="bg-green-100 p-3 rounded">
-    <div class="font-bold">人力成本</div>
-    <div class="text-sm">减少 60% 重复性工作时间</div>
-  </div>
-  <div class="bg-green-100 p-3 rounded">
-    <div class="font-bold">沟通成本</div>
-    <div class="text-sm">标准化流程减少协作摩擦</div>
-  </div>
-  <div class="bg-green-100 p-3 rounded">
-    <div class="font-bold">质量成本</div>
-    <div class="text-sm">减少 80% 后期返工</div>
-  </div>
-</div>
-
-::right::
-
-## 效率提升
-
-<div class="space-y-3 mt-4">
-  <div class="bg-blue-100 p-3 rounded">
-    <div class="font-bold">交付速度</div>
-    <div class="text-sm">从想法到原型：4 周→4 天</div>
-  </div>
-  <div class="bg-blue-100 p-3 rounded">
-    <div class="font-bold">决策质量</div>
-    <div class="text-sm">数据驱动的竞品分析</div>
-  </div>
-  <div class="bg-blue-100 p-3 rounded">
-    <div class="font-bold">团队协作</div>
-    <div class="text-sm">统一的文档和流程标准</div>
+<div class="bg-blue-50 p-4 rounded">
+  <h3 class="font-bold mb-3">操作步骤</h3>
+  <div class="text-sm space-y-3">
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-xs font-bold">1</div>
+      <div><strong>启动代理</strong></div>
+    </div>
+    <div class="pl-8">
+      <code>*agent pm</code>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-xs font-bold">2</div>
+      <div><strong>创建 PRD</strong></div>
+    </div>
+    <div class="pl-8">
+      <code>*create-prd</code>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-xs font-bold">3</div>
+      <div><strong>输入需求</strong></div>
+    </div>
+    <div class="pl-8 text-gray-600">
+      智能请假系统，移动端优先，支持审批流程，集成企业微信
+    </div>
   </div>
 </div>
 
+<div class="bg-green-50 p-4 rounded">
+  <h3 class="font-bold mb-3">自动输出</h3>
+  <div class="text-sm space-y-2">
+    <div class="flex items-center space-x-2">
+      <div class="w-4 h-4 bg-green-500 rounded flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">✓</div>
+      </div>
+      <div>产品概述与用户画像</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-4 h-4 bg-blue-500 rounded flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">✓</div>
+      </div>
+      <div>23 个详细功能点</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-4 h-4 bg-purple-500 rounded flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">✓</div>
+      </div>
+      <div>As-Want-So 用户故事</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-4 h-4 bg-orange-500 rounded flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">✓</div>
+      </div>
+      <div>可测试的验收标准</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-4 h-4 bg-red-500 rounded flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">✓</div>
+      </div>
+      <div>技术要求与约束</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-4 h-4 bg-indigo-500 rounded flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">✓</div>
+      </div>
+      <div>3 个版本迭代计划</div>
+    </div>
+  </div>
+  <div class="mt-3 text-xs text-gray-600 text-center">
+    <span class="bg-white px-2 py-1 rounded">📁 docs/prd.md + architecture.md + user-stories/</span>
+  </div>
+</div>
+
+</div>
+
 ---
 
-<div class="mt-6 p-4 bg-yellow-100 rounded">
-  <div class="text-center">
-    <div class="text-lg font-bold">预计投资回报率：第一季度即可达到 300%+</div>
+# 完整开发流程：从 PRD 到可运行代码
+
+## 真实案例：请假系统开发全流程
+
+<div class="grid grid-cols-3 gap-6 mt-6">
+
+<div class="bg-blue-50 p-4 rounded">
+  <h3 class="font-bold mb-3">Phase 1: 架构设计</h3>
+  <div class="text-sm space-y-2">
+    <div><code>*agent architect</code> → <code>*create-full-stack-architecture</code></div>
+    <div><strong>技术栈</strong>：React Native + Node.js + MongoDB</div>
+    <div><strong>15 分钟输出</strong>：系统架构图、数据库设计、API 规范、安全方案</div>
   </div>
+</div>
+
+<div class="bg-green-50 p-4 rounded">
+  <h3 class="font-bold mb-3">Phase 2: 开发实现</h3>
+  <div class="text-sm space-y-2">
+    <div><code>*agent po</code> → <code>*agent sm</code> → <code>*agent dev</code></div>
+    <div><strong>循环执行</strong>：故事创建 → 您批准 → 开发实现</div>
+  </div>
+</div>
+
+<div class="bg-purple-50 p-4 rounded">
+  <h3 class="font-bold mb-3">最终交付</h3>
+  <div class="text-sm space-y-2">
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">📱</div>
+      </div>
+      <div>移动应用 (APK)</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">💻</div>
+      </div>
+      <div>管理后台</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">🔌</div>
+      </div>
+      <div>完整 API 服务</div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <div class="w-6 h-6 bg-gradient-to-r from-orange-500 to-amber-500 rounded-full flex items-center justify-center flex-shrink-0">
+        <div class="text-white text-xs">📚</div>
+      </div>
+      <div>技术文档</div>
+    </div>
+  </div>
+  <div class="mt-4 text-center">
+    <div class="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white px-4 py-2 rounded-full text-xs font-bold">
+      <div>⚡</div>
+      <div>3 天 vs 传统 3-4 周</div>
+    </div>
+  </div>
+</div>
+
 </div>
 
 ---
@@ -338,48 +459,41 @@ layout: center
 class: text-center
 ---
 
-# 🎯 立即行动
+# 三种入门方式，现在就开始
 
-<div class="mt-8 space-y-6">
+<div class="grid grid-cols-3 gap-6 mt-6">
 
-<div class="text-xl">
-  <strong>3 种开始方式，选择最适合您的：</strong>
-</div>
-
-<div class="grid grid-cols-3 gap-6 mt-8">
-
-<div class="bg-blue-50 p-6 rounded-lg">
-  <div class="text-2xl mb-3">🌐</div>
-  <h3 class="font-bold mb-2">Web UI 试用</h3>
-  <div class="text-sm">
-    2 分钟快速体验<br/>
-    全栈 AI 团队协作
+<div class="bg-blue-50 p-4 rounded">
+  <h3 class="text-lg font-bold mb-3">2 分钟体验</h3>
+  <div class="text-sm space-y-2">
+    <div><strong>推荐新手</strong></div>
+    <div>1. 打开 Claude/Gemini</div>
+    <div>2. 输入 <code>*agent analyst</code></div>
+    <div>3. 执行 <code>*create-competitor-analysis</code></div>
+    <div class="text-xs text-gray-600 mt-3">无需安装，立即体验</div>
   </div>
 </div>
 
-<div class="bg-green-50 p-6 rounded-lg">
-  <div class="text-2xl mb-3">💻</div>
-  <h3 class="font-bold mb-2">IDE 集成</h3>
-  <div class="text-sm">
-    完整开发环境<br/>
-    一条命令安装
+<div class="bg-green-50 p-4 rounded">
+  <h3 class="text-lg font-bold mb-3">完整安装</h3>
+  <div class="text-sm space-y-2">
+    <div><strong>推荐团队</strong></div>
+    <div class="bg-black text-green-400 p-2 rounded font-mono text-xs">
+      npx bmad-method install
+    </div>
+    <div>获得工作流自动化、模板系统、质量检查等完整功能</div>
   </div>
 </div>
 
-<div class="bg-purple-50 p-6 rounded-lg">
-  <div class="text-2xl mb-3">🎓</div>
-  <h3 class="font-bold mb-2">培训工作坊</h3>
-  <div class="text-sm">
-    团队培训<br/>
-    最佳实践分享
-  </div>
-</div>
-
-</div>
-
-<div class="mt-8">
-  <div class="text-lg text-gray-600">
-    今天开始，明天就能看到工作效率的显著提升
+<div class="bg-purple-50 p-4 rounded">
+  <h3 class="text-lg font-bold mb-3">团队培训</h3>
+  <div class="text-sm space-y-2">
+    <div><strong>推荐企业</strong></div>
+    <div>• 产品管理最佳实践</div>
+    <div>• BMAD 实操训练</div>
+    <div>• 真实项目演练</div>
+    <div>• 团队流程定制</div>
+    <div class="text-xs text-gray-600 mt-2">training@bmad-method.com</div>
   </div>
 </div>
 
@@ -387,51 +501,40 @@ class: text-center
 
 ---
 
-# 🔗 资源链接
+# 资源清单和下一步行动
 
-<div class="grid grid-cols-2 gap-8 mt-8">
+<div class="grid grid-cols-2 gap-6 mt-6">
 
-<div>
-  <h3 class="text-lg font-bold mb-4">快速开始</h3>
-  <div class="space-y-3 text-sm">
-    <div class="flex items-center space-x-2">
-      <div class="text-blue-500">🌐</div>
-      <div><strong>Web UI 体验</strong>：上传团队文件到 AI 聊天工具</div>
+<div class="bg-blue-50 p-4 rounded">
+  <h3 class="text-lg font-bold mb-3">立即开始（5 分钟）</h3>
+  <div class="space-y-2 text-sm">
+    <div class="bg-black text-green-400 p-2 rounded font-mono text-xs">
+      npx bmad-method install
     </div>
-    <div class="flex items-center space-x-2">
-      <div class="text-green-500">📦</div>
-      <div><strong>一键安装</strong>：<code>npx bmad-method install</code></div>
-    </div>
-    <div class="flex items-center space-x-2">
-      <div class="text-purple-500">📖</div>
-      <div><strong>用户指南</strong>：docs/user-guide.md</div>
-    </div>
+    <div>📱 <strong>演示视频</strong>：https://youtu.be/bmad-demo</div>
+    <div>📖 <strong>快速指南</strong>：docs/quickstart.md</div>
+    <div>💬 <strong>微信群</strong>：扫码加入用户交流群</div>
+    <div>📧 <strong>技术支持</strong>：support@bmad-method.com</div>
   </div>
 </div>
 
-<div>
-  <h3 class="text-lg font-bold mb-4">学习资源</h3>
-  <div class="space-y-3 text-sm">
-    <div class="flex items-center space-x-2">
-      <div class="text-red-500">🎥</div>
-      <div><strong>YouTube 频道</strong>：@BMadCode</div>
-    </div>
-    <div class="flex items-center space-x-2">
-      <div class="text-blue-500">💬</div>
-      <div><strong>Discord 社区</strong>：交流答疑</div>
-    </div>
-    <div class="flex items-center space-x-2">
-      <div class="text-green-500">📚</div>
-      <div><strong>GitHub 仓库</strong>：完整文档和示例</div>
-    </div>
+<div class="bg-green-50 p-4 rounded">
+  <h3 class="text-lg font-bold mb-3">检查清单</h3>
+  <div class="space-y-2 text-sm">
+    <div>☐ 下载演示文稿到本地</div>
+    <div>☐ 在测试项目中安装 BMAD</div>
+    <div>☐ 体验 Analyst 代理（竞品分析）</div>
+    <div>☐ 尝试 PM 代理（撰写简单 PRD）</div>
+    <div>☐ 加入用户社群获取支持</div>
+    <div>☐ 分享给团队其他成员</div>
   </div>
 </div>
 
 </div>
 
-<div class="mt-12 text-center">
-  <div class="text-2xl font-bold mb-2">准备好让 AI 改变您的产品管理工作了吗？</div>
-  <div class="text-lg text-gray-600">让我们从下一个项目开始</div>
+<div class="mt-8 text-center">
+  <div class="text-xl font-bold mb-2">🚀 开始您的 AI 驱动产品管理之旅</div>
+  <div class="text-sm text-gray-600">现在就动手试试，体验效率提升吧！</div>
 </div>
 
 ---
