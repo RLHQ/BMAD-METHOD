@@ -12,6 +12,14 @@ export default {
   proseWrap: 'preserve',
   overrides: [
     {
+      files: ['**/slides.md', '**/*.slides.md'],
+      options: {
+        proseWrap: 'never',
+        embeddedLanguageFormatting: 'off',
+        htmlWhitespaceSensitivity: 'ignore',
+      },
+    },
+    {
       files: ['*.md'],
       options: { proseWrap: 'preserve' },
     },

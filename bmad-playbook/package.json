@@ -1,0 +1,14 @@
+{
+  "name": "bmad-playbook",
+  "version": "1.0.0",
+  "description": "BMAD-METHOD Slidev presentation for Product Owners",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev",
+    "export": "slidev export"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.48.0",
+    "@slidev/theme-default": "latest"
+  }
+}
