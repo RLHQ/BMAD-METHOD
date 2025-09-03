@@ -1,6 +1,6 @@
 /**
  * Build ePub from Chinese Markdown documentation with Mermaid diagram conversion
- * Usage: node scripts/build-epub-zh-with-diagrams.js
+ * Usage: node scripts/build-epub-zh-with-diagrams.mjs
  */
 
 import fs from 'node:fs/promises';

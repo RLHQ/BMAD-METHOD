@@ -26,8 +26,7 @@
   "scripts": {
     "build": "node tools/cli.js build",
     "build:agents": "node tools/cli.js build --agents-only",
-    "build:epub-zh": "node scripts/build-epub-zh.mjs",
-    "build:epub-zh:enhanced": "node scripts/build-epub-zh-with-diagrams.mjs",
+    "build:epub-zh": "node scripts/build-epub-zh-with-diagrams.mjs",
     "build:teams": "node tools/cli.js build --teams-only",
     "fix": "npm run format && npm run lint:fix",
     "flatten": "node tools/flattener/main.js",
