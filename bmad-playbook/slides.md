@@ -13,26 +13,7 @@ transition: slide-left
 title: BMAD-METHOD™ for Product Owners
 mdc: true
 colorSchema: light
-css: |
-  .slidev-layout {
-    background-image: 
-      linear-gradient(rgba(233, 236, 239, 0.5) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(233, 236, 239, 0.5) 1px, transparent 1px);
-    background-size: 20px 20px;
-  }
-  
-  h1, h2, h3 {
-    color: #2c3e50 !important;
-    font-weight: 600;
-  }
-  
-  .text-center {
-    position: relative;
-  }
-  
-  .consulting-shadow {
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  }
+unocss: true
 ---
 
 # BMAD-METHOD™ for <br /> Product Owners
